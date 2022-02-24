@@ -1,0 +1,10 @@
+#news {
+  display: flex;
+  background-color: black;
+}
+.new {
+  margin: 0 15px;
+  background-color: rgb(0, 87, 82);
+  color:white;
+  text-align: center;
+}
