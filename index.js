@@ -12,11 +12,11 @@ news.forEach((value) => {
   let img = document.createElement('img');
   img.src = `${value.src}`;
   let h3 = document.createElement('h3');
-  h3.innerHTML = value.title;
+  h3.textContent = value.title;
   let p = document.createElement('p');
-  p.innerHTML = value.text;
+  p.textContent = value.text;
   let button = document.createElement('button');
-  button.innerHTML = value.button;
+  button.textContent = value.button;
 
   article.append(img, h3, p, button);
   main.append(article);
